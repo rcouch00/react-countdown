@@ -10,13 +10,21 @@ Live: [https://countdown2christmas.kristin-baumann.com/](https://countdown2chris
 
 # Scripts
 
-### `npm start`
+Delete the /node_modules directory and the package-lock.json file using the rm command:
+### `rm -rf node_modules`
+### `rm -rf package-lock.json`
+
+Install react-scripts using the following command:
+### `npm install react-scripts`
+
+Install the dependencies using the following command:
+### `npm install`
 
 Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm run build`
+### `npm start`
 
 Builds the app for production to the `build` folder.<br>
+### `npm run build`
 
 ## License
 
